@@ -1,9 +1,6 @@
 const bruh = "bruh"; // use const by defualt
 let admin;
-let name;
-name = "John";
-admin = name;
-console.log(admin); // John
+console.log(bruh); // John
 
 let planet = "Earth";
 let visitor;
@@ -25,3 +22,17 @@ typeof Math; // "object"  (1)
 typeof null; // "object"  (2)
 
 typeof alert; // "function"  (3)
+
+// Practice
+// 10 const declarations of different types
+const name = "Eason";
+const age = 21;
+const inty = 10n;
+const bool = true;
+const nullValue = null;
+
+console.log(typeof name); // "string"
+console.log(typeof age); // "number"
+console.log(typeof inty); // "bigint"
+console.log(typeof bool); // "boolean"
+console.log(typeof nullValue); // "object"

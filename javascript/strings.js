@@ -38,10 +38,16 @@ console.log("Interface".toLowerCase());
 
 console.log("Interface"[0].toLowerCase());
 
-let str = "Widget with id";
+str = "Widget with id";
 
 console.log(str.indexOf("Widget")); // 0, because 'Widget' is found at the beginning
 console.log(str.indexOf("widget")); // -1, not found, the search is case-sensitive
 
 console.log(str.indexOf("id")); // 1, "id" is found at the position 1 (..idget with id)
 console.log(str.indexOf("id", 2)); // 12
+
+console.log("Widget with id".includes("Widget"));// true 
+console.log("Widget".startsWith("Wid"));//true
+console.log("Widget".endsWith("get"));//true
+
+console.log("hi".at(0).toUpperCase());

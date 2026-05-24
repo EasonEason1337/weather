@@ -16,9 +16,9 @@ for (let z = 0; z < 3; z++) {
   alert(z);
 }
 
-for (let i = 0; i < 10; i++) {
+for (let p = 0; p < 10; p++) {
   // if true, skip the remaining part of the body
-  if (i % 2 == 0) continue;
+  if (p % 2 == 0) continue;
 
-  alert(i); // 1, then 3, 5, 7, 9
+  console.log(p); // 1, then 3, 5, 7, 9
 }

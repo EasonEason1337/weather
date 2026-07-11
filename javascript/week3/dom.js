@@ -25,8 +25,8 @@ regions.forEach((region) => {
     <p>${region.island} Island · Population: ${region.population}</p>
   `;
 
-  if (region.population < 300000){
-    card.style.color = 'red';
+  if (region.population < 300000) {
+    card.style.color = "red";
   }
 
   // appendChild puts it on the page, inside the container
@@ -59,3 +59,6 @@ container.appendChild(para);
 //    fewer than 300,000 people
 //    Hint: inside your forEach, check region.population
 //    then set card.style.color = 'red' conditionally
+const title = document.getElementById("app-title");
+
+console.log(title.textContent);

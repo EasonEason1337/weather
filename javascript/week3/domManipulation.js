@@ -17,7 +17,7 @@ container.appendChild(para);
 const status = document.querySelector(".risk-status");
 
 status.textContent = "High Risk";
-status.style.color = "red";
+status.style.color = "blue";
 status.style.fontWeight = "bold";
 status.style.fontSize = "100px";
 

@@ -26,7 +26,7 @@ regions.forEach((region) => {
   `;
 
   if (region.population < 300000) {
-    card.style.color = "red";
+    card.style.color = "black";
   }
 
   // appendChild puts it on the page, inside the container

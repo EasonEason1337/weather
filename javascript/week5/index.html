@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NZ Weather</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: sans-serif; padding: 24px; max-width: 700px; }
+    h1   { margin-bottom: 4px; }
+    p.subtitle { color: #888; margin-bottom: 24px; font-size: 14px; }
+    #controls { display: flex; gap: 8px; margin-bottom: 20px; }
+    button { padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; background: white; }
+    button:hover { background: #f0f0f0; }
+    #grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+    .city-card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; }
+    .city-card h2 { margin: 0 0 8px; font-size: 16px; }
+    .city-card .temp { font-size: 32px; font-weight: bold; margin: 4px 0; }
+    .city-card .detail { font-size: 13px; color: #666; }
+    .loading { color: #999; font-style: italic; }
+    .error { color: #c0392b; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>NZ Weather Dashboard</h1>
+  <p class="subtitle">Live weather for New Zealand cities</p>
+  <div id="controls">
+    <button id="refresh">Refresh all</button>
+  </div>
+  <div id="grid"></div>
+  <script src="app.js"></script>
+</body>
+</html>

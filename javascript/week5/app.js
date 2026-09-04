@@ -50,8 +50,8 @@ function createCard(city, weather) {
     return card;
   }
   card.innerHTML = `<h2>${city.name}</h2>
-  <p class="temp">${weather.temperature}°C</h1>
-  <p class="detail">Wind: ${weather.windspeed} km/h · Direction: ${weather.winddirection}°</p>`;
+  <p class="temp">${weather?.temperature}°C</p>
+  <p class="detail">Wind: ${weather?.windspeed} km/h · Direction: ${weather?.winddirection}°</p>`;
   return card;
 }
 

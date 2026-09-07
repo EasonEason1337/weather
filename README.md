@@ -10,3 +10,5 @@ A live weather dashboard for New Zealand cities
 - Vanilla JavaScript (ES6+ modules)
 - Open-Meteo API (free, no API key required)
 - HTML + CSS
+
+https://easoneason1337.github.io/weather/javascript/
